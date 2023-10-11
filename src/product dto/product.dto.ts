@@ -8,5 +8,5 @@ export class productDto{
     Quantity: string
     
     @IsNotEmpty()
-    amount:number
+    amount:string
 }
