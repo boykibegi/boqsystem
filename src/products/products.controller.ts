@@ -22,12 +22,7 @@ export class ProductsController {
 
    }
 
-   @Get('good')
-
-   getProduct(@Body() dto:searchP){
-      
-     return this.productservice.getProduct(dto)
-   }
+  
 
 
 }
