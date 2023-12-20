@@ -1,9 +1,6 @@
 import { Body, Controller, Get, Post, Req } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { productDto } from 'src/product dto';
-import { domainToASCII } from 'url';
-import { searchP } from 'src/product dto/searchP.dto';
-
 @Controller('product')
 export class ProductsController {
     constructor (private productservice:ProductsService) {}
