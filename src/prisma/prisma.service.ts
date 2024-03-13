@@ -7,7 +7,7 @@ export class PrismaService extends PrismaClient {
         super({
             datasources:{
                 db:{
-                    url:'postgresql://codekiller:13245678Twi@@localhost:5432/BOQSYSTEM?schema=public'
+                    url:'postgres://default:CQs9z7PquDZb@ep-patient-credit-49696121.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require'
                     
                 }
             }
